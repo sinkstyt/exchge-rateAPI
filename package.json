@@ -1,7 +1,7 @@
 {
   "name": "currency-exchange",
   "version": "1.0.0",
-  "description": "converts a US Dollars amount to another currency",
+  "description": "converts US Dollars amount to another currency",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode development",
@@ -9,8 +9,14 @@
     "lint": "eslint src/*.js",
     "test": "jest --coverage"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "money",
+    "currency",
+    "exchange",
+    "dollar",
+    "US dollar"
+  ],
+  "author": "Tyler Sinks",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.6.4",
