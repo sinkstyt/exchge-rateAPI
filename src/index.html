@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>Change Dollar Amount</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Change US$ Amount</h1>
+      <p class="sub-heading"></p>
+    </div>
+    <div class="instructions">
+      <h2 class="exchange-heading"></h2>
+      <p class="exchange-instructions"></p>
+    </div>
+    <div class="form-control">
+      <form action="">
+        <div class="col-lg-6">
+          <h2 class="form-heading"></h2>
+          <label for="dollar-input"></label>
+          <input type="text" class="form-control" id="dollar-input" aria-describedby="dollar-input" placeholder="10">
+          <small id="currency-help" class="form-text text-muted">Please leave out any symbols such as $.</small>
+        </div>
+        <div class="col-auto">
+          <label class="mr-sm-2" for="inlineFormCustomSelect">Preference</label>
+          <select class="custom-select mr-md-4" id="inlineFormCustomSelect">
+            <option selected>Exchanged to...</option>
+            <option value="CAD">Canadian Dollar (CAD)</option>
+            <option value="MXN">Mexican Peso (MXN)</option>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="RUB">Russian Ruble (RUB)</option>
+            <option value="INR">Indian Rupee (INR)</option>
+            <option value="CNY">Chinese Renminbi (CNY)</option>
+            <option value="JPY">Japanese Yen (JPY)</option>
+            <option value="THB">Thai Baht (THB)</option>
+            <option value="AUD">Australian Dollar (AUD)</option>
+            <option value="NZD">New Zealand Dollar (NZD)</option>
+          </select>
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary">Exchange</button>
+        </div>
+      </form>
+    </div>
+    <div class="output-converted">
+      <h2 class="from-currency-to-currency"></h2>
+    </div>
+  </div>
+</body>
+</html>
